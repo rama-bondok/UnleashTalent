@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UnleashYourTalent</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="button_click">Click Me!</string>
+    <string name="empty_textview">Currently i am empty</string>
+    <string name="button_handle_files">Open Files Activity</string>
+    <string name="read_button">Read</string>
+    <string name="write_button">Write</string>
+</resources>
