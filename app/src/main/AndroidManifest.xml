@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".SendMessageActivity" />
-        <activity android:name=".FilesHanldingActivity"></activity>
+        <activity android:name=".FilesHanldingActivity" />
+        <activity android:name=".XMLFilesActivity" />
+        <activity android:name=".BinaryFilesActivity"></activity>
     </application>
 
 </manifest>

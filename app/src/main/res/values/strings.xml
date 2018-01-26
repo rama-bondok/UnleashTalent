@@ -4,7 +4,9 @@
     <string name="button_send">Send</string>
     <string name="button_click">Click Me!</string>
     <string name="empty_textview">Currently i am empty</string>
-    <string name="button_handle_files">Open Files Activity</string>
+    <string name="button_handle_files">Open Text Files Activity</string>
     <string name="read_button">Read</string>
     <string name="write_button">Write</string>
+    <string name="xml_files">Open XML Files Activity</string>
+    <string name="binary_files">Open Binary Files Activity</string>
 </resources>

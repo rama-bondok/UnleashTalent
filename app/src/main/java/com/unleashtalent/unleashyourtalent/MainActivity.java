@@ -35,9 +35,21 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(intent,MESSAGE_REQUEST);
     }
 
-    public void StartFilesActivity(View view)
+    public void startFilesActivity(View view)
     {
         Intent intent=new Intent(this,FilesHanldingActivity.class);
+        startActivity(intent);
+    }
+
+    public void startXmlFilesActivity(View view)
+    {
+        Intent intent=new Intent(this,XMLFilesActivity.class);
+        startActivity(intent);
+    }
+
+    public void startBinaryFilesActivity(View view)
+    {
+        Intent intent=new Intent(this,BinaryFilesActivity.class);
         startActivity(intent);
     }
 
