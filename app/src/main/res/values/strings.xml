@@ -9,4 +9,9 @@
     <string name="write_button">Write</string>
     <string name="xml_files">Open XML Files Activity</string>
     <string name="binary_files">Open Binary Files Activity</string>
+    <string name="audio_recording_activity">Open Recording Activity</string>
+    <string name="start_record_audio">Start Recording</string>
+    <string name="stop_record_audio">Stop Recording</string>
+    <string name="play_audio">Play</string>
+    <string name="pause_audio">Pause</string>
 </resources>

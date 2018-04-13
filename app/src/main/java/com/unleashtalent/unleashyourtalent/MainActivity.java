@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,6 +14,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // get the button of opening audio recording activity
+        Button buttonAudioRecording=(Button) findViewById(R.id.button_audio_activity);
+
+        // set onClickListener to audio recoding button
+        buttonAudioRecording.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View view){
+                // start audio recording activity
+                Intent intent=new Intent(MainActivity.this,RecordingAudioActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -52,5 +66,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,BinaryFilesActivity.class);
         startActivity(intent);
     }
+
+
 
 }
